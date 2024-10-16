@@ -1,9 +1,4 @@
-# Learning the unlearnable (UEraser)
-
-This repository contains the code of our paper
-[Learning the Unlearnable: Adversarial Augmentations Suppress Unlearnable Example Attacks](https://arxiv.org/abs/2303.15127).
-
-<img src="img/overview.png" width="800px">
+This repository contains the code of our paper (ID 1514).
 
 ### General Usage of UEraser
 ```python
@@ -62,28 +57,3 @@ The parameter choices for the above commands are as follows:
 - Mode of UEraser `<mode>`: `fast`, `standard`, `em`.
 - Clean `<clean>`: `unlearn`, `clean`.
 
-### Cite our paper:
-
-- arXiv version:
-```bibtex
-@article{qin2023learning,
-  title={Learning the unlearnable: Adversarial augmentations suppress unlearnable example attacks},
-  author={Qin, Tianrui and Gao, Xitong and Zhao, Juanjuan and Ye, Kejiang and Xu, Cheng-Zhong},
-  journal={arXiv preprint arXiv:2303.15127},
-  year={2023}
-}
-```
-- ICCVW version:
-```bibtex
-@inproceedings{qin2023iccvw,
-  title={Learning the unlearnable: Adversarial augmentations suppress unlearnable example attacks},
-  author={Qin, Tianrui and Gao, Xitong and Zhao, Juanjuan and Ye, Kejiang and Xu, Cheng-Zhong},
-  booktitle={4th Workshop on Adversarial Robustness In the Real World (AROW), ICCV 2023},
-  url={https://iccv23-arow.github.io/pdf/arow-0025.pdf},
-  year={2023}
-}
-```
-
-### Acknowledgement:
-
-Training code adapted from EM and LSP repository [EM-repository](https://github.com/HanxunH/Unlearnable-Examples) and [LSP-repository](https://github.com/dayu11/Availability-Attacks-Create-Shortcuts).
