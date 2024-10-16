@@ -1,4 +1,4 @@
-This repository contains the code of our paper (ID 1514).
+This repository contains the code of our paper (Submission ID: 1514).
 
 ### General Usage of UEraser
 ```python
